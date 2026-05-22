@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencer Marketing Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+      <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Influencer Marketing Dashboard</h1>
+      <p class="mt-1 text-sm text-gray-500">Campaign performance report &mdash; All products</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+
+    <!-- KPIs Section -->
+    <section aria-labelledby="kpi-heading" class="mb-8">
+      <h2 id="kpi-heading" class="text-lg font-semibold text-gray-900 mb-4">Key Performance Indicators</h2>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+        <!-- KPI: Total Revenue -->
+        <article class="rounded-lg bg-white p-4 shadow">
+          <dt class="text-sm font-medium text-gray-500">Total Revenue</dt>
+          <dd class="mt-1 text-3xl font-semibold text-gray-900">250&euro;</dd>
+          <dd class="mt-2 text-sm text-green-600">&#9650; On target</dd>
+        </article>
+
+        <!-- KPI: Commission -->
+        <article class="rounded-lg bg-white p-4 shadow">
+          <dt class="text-sm font-medium text-gray-500">Commission (15%)</dt>
+          <dd class="mt-1 text-3xl font-semibold text-gray-900">37,50&euro;</dd>
+          <dd class="mt-2 text-sm text-green-600">&#9650; On target</dd>
+        </article>
+
+        <!-- KPI: Active Creators -->
+        <article class="rounded-lg bg-white p-4 shadow">
+          <dt class="text-sm font-medium text-gray-500">Active Creators</dt>
+          <dd class="mt-1 text-3xl font-semibold text-gray-900">3</dd>
+          <dd class="mt-2 text-sm text-gray-500">Contributing products</dd>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
